@@ -27,9 +27,9 @@
   git clone https://github.com/jjuliomarttins/four-card-feature-section-with-flexbox.git
 ````
 
-# Don't want to download?
+## Don't want to download?
 
-[Click here]()
+[Click here](https://four-card-feature-section-with-flexbox-sooty.now.sh/)
 
 ## License
 
