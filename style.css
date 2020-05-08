@@ -1,0 +1,96 @@
+/* Font Poppins 200, 400, 600 import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* { /* Reset Settings */
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 15px Poppins, sans-serif;
+  color: hsl(234, 12%, 34%);
+  background-color: hsl(0, 0%, 98%);
+  width: 100%;
+  max-width: 1440px;
+  min-width: 375px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  max-width: 650px;
+  min-width: 375px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+header .header-p1 {
+  font-size: 1.455rem;
+  margin-bottom: 10px;
+}
+
+header .header-p1::first-line, .header-p2 {
+  width: 80%;
+  margin: auto;
+  font-weight: 200;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+main section[class*="col-"] {
+  position: relative;
+  max-width: 375px;
+  width: 100%;
+  height: 250px;
+  margin: 20px;
+  padding: 25px;
+  box-shadow: 1px 1px 30px hsla(234, 12%, 34%, 0.157);
+  border-radius: 6px;
+}
+
+main section p {
+  color: hsl(229, 6%, 66%);
+  margin: 10px 0;
+}
+
+main section img {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
+
+main .col-1 {
+  border-top: 0.3em solid hsl(180, 62%, 55%);
+}
+
+main .col-2 {
+  border-top: 0.3em solid hsl(0, 78%, 62%);
+}
+
+main .col-3 {
+  border-top: 0.3em solid hsl(34, 97%, 64%);
+}
+
+main .col-4 {
+  border-top: 0.3em solid hsl(212, 86%, 64%);
+}
+
+footer {
+  margin: 50px 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}

@@ -1,0 +1,36 @@
+@media only screen and (min-width: 768px) {
+  main section[class*="col-"] {
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  main section[class*="col-"] {
+    margin: 20px;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  header .header-p1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+ 
+  main .col-1 { /* Supervisor */
+    order: 1;
+    top: 150px
+  }
+  
+  main .col-2 { /* Team Builder */
+    order: 2;
+  }
+  
+  main .col-3 { /* Karma */
+    order: 4;
+  }
+  
+  main .col-4 { /* Calculator */
+    order: 3;
+    top: 150px
+  }
+}
